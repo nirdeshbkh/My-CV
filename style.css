@@ -1,0 +1,114 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.header{
+    display: flex;
+    background-color: #1d3c45;
+   justify-content: space-evenly;
+
+}
+
+
+/* .info{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+} */
+
+.profile_name_firstname{
+    color:#d2601a;
+    font-weight: 200;
+    font-size: clamp(2rem, 8vw, 4rem);
+
+}
+
+.profile_name_lastname
+{
+    margin-left: 20px;
+    color: #e6e6fa;
+}
+.info{
+    color: white;
+}
+
+
+.summary h1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.Skills h1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+hr.line{
+    border-top: 1px solid black;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+.description{
+
+  margin-left: 40px;
+  margin-right: 60px;
+  text-align: justify;
+  text-justify: inter-word; 
+  font-size: 20px;
+
+}
+
+.list1{
+    display: flex;
+    align-content: space-between;
+    font-weight:  500;
+  
+}
+ul.skill_1{
+
+    margin-left: 60px;
+    font-size: 20px;
+}
+ul.skill_2{
+    margin-left: 60px;
+    font-size: 20px;
+}
+.experience h1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.list2{
+    margin-left: 60px;
+    font-size: 20px;
+  
+}
+
+.Education h1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+ul.edu{
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.Languages h1{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+ul.lang{
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+.foot{
+    background-color: #1d3c45;
+    height: 20px;
+    width: 100;
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
